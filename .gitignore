@@ -1,0 +1,6 @@
+$ cat .gitignore
+
+notebooks/
+build/
+dist/
+.idea/
