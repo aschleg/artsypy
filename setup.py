@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='artsypy',
-    version='1.0.0',
+    version='0.5.0',
     author='Aaron Schlegel',
     author_email='aaron@aaronschlegel.com',
     url='https://github.com/aschleg/artsypy',
