@@ -1,5 +1,7 @@
 $ cat .gitignore
 
+.cache/
+__pycache__/
 notebooks/
 build/
 dist/

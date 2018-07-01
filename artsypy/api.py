@@ -21,18 +21,16 @@ class Artsy(object):
         return token, token_expiry
 
     def get_artists(self, artist=None, artwork_id=None, similar_to_artist_id=None, similarity_type='default',
-                    gene_id=None, artworks=False, published_artworks=False):
+                    published_artworks=False, return_type='json'):
 
-        if artworks:
-            endpoint_suffix = '/artworks'
-        else:
-            endpoint_suffix = '/artists'
+        endpoint_suffix = '/artists'
 
         if artist is None:
             endpoint = self.api_url + endpoint_suffix
+
         else:
             endpoint = self.api_url + endpoint_suffix + '/'
-            artworks, published_artworks = None, None
+            published_artworks = None
             artist = artist.replace(' ', '-').lower()
 
             endpoint = urljoin(endpoint, artist)
@@ -48,8 +46,7 @@ class Artsy(object):
             'similar_to_artist_id': similar_to_artist_id,
             'similarity_type': similarity_type,
             'published': published_artworks,
-            'artwork_id': artwork_id,
-            'gene_id': gene_id
+            'artwork_id': artwork_id
         }
 
         parameters = {key: val for key, val in parameters.items() if val is not None}
@@ -58,15 +55,30 @@ class Artsy(object):
                          headers={'X-Xapp-Token': self.auth_token},
                          params=parameters)
 
+        if return_type == 'json':
+            r = r.json()
+        elif return_type == 'text':
+            r = r.text
+        else:
+            raise ValueError("return_type parameter must be one of 'json' or 'text'.")
+
         return r
 
-    def get_artworks(self, art):
+    def get_artworks(self, art_id=None, similar_to_artist_id=None, user_id=None):
         endpoint = self.api_url + '/artworks/'
 
-        parameter = art.replace(' ', '-').lower()
+        #if art_id is not None:
+        #    endpoint = endpoint + 'artworks/' + art_id
 
-        r = requests.get(endpoint,
+        parameters = {
+            'user_id': user_id
+            #'similar_to_artwork_id': similar_to_artist_id
+        }
+
+        parameters = {key: val for key, val in parameters.items() if val is not None}
+
+        r = requests.get(endpoint + art_id,
                          headers={'X-Xapp-Token': self.auth_token},
-                         params={'artist_id': art})
+                         params=parameters)
 
         return r

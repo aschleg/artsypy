@@ -1,0 +1,373 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists/andy-warhol
+  response:
+    body:
+      string: !!binary |
+        H4sIAMbUOFsAAxTHUQqAIAwA0LvsAGkmYV4mtjIchYXbT4R3r/7ee2A+uOwC8YHjXFD5LL9zTRtE
+        yKqXRGPw4g6ryt2VpP/MNxYV49dAk6PBJxoD9uQWa+2weWitvQAAAP//AwDb49CgXQAAAA==
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['109']
+      Content-Type: [text/plain]
+      Date: ['Sun, 01 Jul 2018 13:19:02 GMT']
+      Location: ['https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [e8f83b8e-01da-4b9a-895c-61190809eecf]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.077548']
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4
+  response:
+    body:
+      string: !!binary |
+        H4sIAMbUOFsAA7RW247bNhT8FUIPeakvkr3Jeg0sAhdpkV4SpO0CRdEUxpFIS4wpUuUlWnWx/94h
+        JRtO0RZboHkwQJGHZ+bMGZJ+yCTPttkV35Q3q3J9JcoXGyrKVZXn+fpwlc0yp0KNCNJ8mPdkG6Mw
+        WVlBXvA9eSyt8iKf55v5an1XXG2L59t1/kWeb/McgaHjnwRu5vn1PC/uivW2uN6urs6BmlqBkB1g
+        2M8nGGesp1KJ/bQ6LrAYhNVaaC4spltSAt+lNLWlrhlSHrZrhZUVadaR1F7YGessBi0d49hVQXXe
+        YMQthbrxriU9Y1Kp4LyltHKQqp3CeyuRgkEFVhmlRJUC+sawUlQgx4zG78B8I1hrnGcHak1wjKyX
+        zrvT0ir3DauE9sEOi6lOZKjBspGOVWRFRME+5kJVCecOQQGxRS2VJDXlSzwuqLIDfi3V9IfUwqVV
+        LXrXUSesY2XwrBxYcfMiZz1yc4FSWkRy5g0TLkosXZMYRKFH/Em1BXst2O9BVkc1nGq1Qps+bo+w
+        KU7qmomPwg6cBkYcI9AULQpF6ZZJcAOvgzVtLEZWDMRl56AJeaaMOSIZKpfAcLKVimykFhUzVtZS
+        k3KT9tpTYq6xbIlLLw1WUbw9JpWh5KjRWV6qkuDRhsiIGiMeRtag7QkjuNQ7J9XRwdlCj2DQ7Fyc
+        1KnvVBoIDkjWS3SSmBfUJljngEmxXoSiez5waRiSVwS7cPY+u8PH1xSNMyzeZ+wbnbAVeAH53kvh
+        ZifKsEesMZIl78E+IkIQmDEpfY++yqguKo8mHfm2QXnMckmxF6AyG30yAhU31zlmkCUd3pgn+kqC
+        uIlgHc6aJendgr0KNi6Puza5O9GK6ksdJt/co8lRbqkPKghdxTOQ9kB/1hur+OxSMyRMmg0mYHg6
+        F3B5E/32rSA9fyOrRij2JTkYjkaXn8lCUxQtUpNPbXHxCGITE7qGw/iI8KPQhLIoUmrJwcRgc3SL
+        dEVY38CjuCGKm9UGMxzpzzOba8w0phUe/sbMO+m9K4Otmxl7J7R2g/pIWhKilKmSERD1VvTsFyDM
+        2GmU7rPRmdKn62i6i7CQzsIeJyTq7rLtr9nBBLuHMy13MTHZOt5m0AC3AQZossp+m2V7JfURGx4y
+        34S2RI0qfjRWHIDQeN+57XLJ1yve5rZrqucFPy4qZQLHudN+oYVffjU/zsP35ofdqzeb3Qfi7qfv
+        Xtvd8oLB4kNXZ48Tzf8r/8MnRT8mDBQm2i7aHw+Qt0EA1Al1+BtM6uQChnFDwsDXcrLP8h/fLSTD
+        GcHDAM3+khEJ+76/TJiSLS9fOGzHbLLNU/mk4Jdjrr3kt/9KLaQbN76Lnwnl2RniNmobQaeLdT9p
+        9190fnna683+aRWeNsQrA23GDWCHz4/8bIrGodv7oRO3l/CRFv4yiKfhp8gntfPx8U8AAAD//wMA
+        91lHF0UJAAA=
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['1091']
+      Content-Type: [application/json]
+      Date: ['Sun, 01 Jul 2018 13:19:02 GMT']
+      ETag: [W/"35cf1abbf437144443bd4ef40ebd003f"]
+      Expires: ['1970-01-01 00:00:00 UTC']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [663f355c-e8af-4b87-abe7-afc43b0e81bd]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.025128']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists/andy-warhol
+  response:
+    body:
+      string: !!binary |
+        H4sIAMfUOFsAAxTHUQqAIAwA0LvsAGkmYV4mtjIchYXbT4R3r/7ee2A+uOwC8YHjXFD5LL9zTRtE
+        yKqXRGPw4g6ryt2VpP/MNxYV49dAk6PBJxoD9uQWa+2weWitvQAAAP//AwDb49CgXQAAAA==
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['109']
+      Content-Type: [text/plain]
+      Date: ['Sun, 01 Jul 2018 13:19:03 GMT']
+      Location: ['https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [1a606cc0-9705-40cb-b9fe-5f690b2e5902]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.024836']
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4
+  response:
+    body:
+      string: !!binary |
+        H4sIAMfUOFsAA7RW247bNhT8FUIPeakvkr3Jeg0sAhdpkV4SpO0CRdEUxpFIS4wpUuUlWnWx/94h
+        JRtO0RZboHkwQJGHZ+bMGZJ+yCTPttkV35Q3q3J9JcoXGyrKVZXn+fpwlc0yp0KNCNJ8mPdkG6Mw
+        WVlBXvA9eSyt8iKf55v5an1XXG2L59t1/kWeb/McgaHjnwRu5vn1PC/uivW2uN6urs6BmlqBkB1g
+        2M8nGGesp1KJ/bQ6LrAYhNVaaC4spltSAt+lNLWlrhlSHrZrhZUVadaR1F7YGessBi0d49hVQXXe
+        YMQthbrxriU9Y1Kp4LyltHKQqp3CeyuRgkEFVhmlRJUC+sawUlQgx4zG78B8I1hrnGcHak1wjKyX
+        zrvT0ir3DauE9sEOi6lOZKjBspGOVWRFRME+5kJVCecOQQGxRS2VJDXlSzwuqLIDfi3V9IfUwqVV
+        LXrXUSesY2XwrBxYcfMiZz1yc4FSWkRy5g0TLkosXZMYRKFH/Em1BXst2O9BVkc1nGq1Qps+bo+w
+        KU7qmomPwg6cBkYcI9AULQpF6ZZJcAOvgzVtLEZWDMRl56AJeaaMOSIZKpfAcLKVimykFhUzVtZS
+        k3KT9tpTYq6xbIlLLw1WUbw9JpWh5KjRWV6qkuDRhsiIGiMeRtag7QkjuNQ7J9XRwdlCj2DQ7Fyc
+        1KnvVBoIDkjWS3SSmBfUJljngEmxXoSiez5waRiSVwS7cPY+u8PH1xSNMyzeZ+wbnbAVeAH53kvh
+        ZifKsEesMZIl78E+IkIQmDEpfY++yqguKo8mHfm2QXnMckmxF6AyG30yAhU31zlmkCUd3pgn+kqC
+        uIlgHc6aJendgr0KNi6Puza5O9GK6ksdJt/co8lRbqkPKghdxTOQ9kB/1hur+OxSMyRMmg0mYHg6
+        F3B5E/32rSA9fyOrRij2JTkYjkaXn8lCUxQtUpNPbXHxCGITE7qGw/iI8KPQhLIoUmrJwcRgc3SL
+        dEVY38CjuCGKm9UGMxzpzzOba8w0phUe/sbMO+m9K4Otmxl7J7R2g/pIWhKilKmSERD1VvTsFyDM
+        2GmU7rPRmdKn62i6i7CQzsIeJyTq7rLtr9nBBLuHMy13MTHZOt5m0AC3AQZossp+m2V7JfURGx4y
+        34S2RI0qfjRWHIDQeN+57XLJ1yve5rZrqucFPy4qZQLHudN+oYVffjU/zsP35ofdqzeb3Qfi7qfv
+        Xtvd8oLB4kNXZ48Tzf8r/8MnRT8mDBQm2i7aHw+Qt0EA1Al1+BtM6uQChnFDwsDXcrLP8h/fLSTD
+        GcHDAM3+khEJ+76/TJiSLS9fOGzHbLLNU/mk4Jdjrr3kt/9KLaQbN76Lnwnl2RniNmobQaeLdT9p
+        9190fnna683+aRWeNsQrA23GDWCHz4/8bIrGodv7oRO3l/CRFv4yiKfhp8gntfPx8U8AAAD//wMA
+        91lHF0UJAAA=
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['1091']
+      Content-Type: [application/json]
+      Date: ['Sun, 01 Jul 2018 13:19:03 GMT']
+      ETag: [W/"35cf1abbf437144443bd4ef40ebd003f"]
+      Expires: ['1970-01-01 00:00:00 UTC']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [8be03cdf-98e7-474d-92e5-bf8c3b69f05a]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.028935']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists?similar_to_artist_id=4d8b92b34eb68a1b2c0003f4&similarity_type=default
+  response:
+    body:
+      string: !!binary |
+        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
+        +vfr6/8BAAD//wMAwVlaKuwpAAA=
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['3155']
+      Content-Type: [application/json]
+      Date: ['Sun, 01 Jul 2018 13:19:03 GMT']
+      ETag: [W/"49eb9ba2074a29b52f892a2cf82b9f42"]
+      Expires: ['1970-01-01 00:00:00 UTC']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [20c693e6-ce54-4543-85b6-b7a2b69a749a]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.064443']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists?artwork_id=516dfb9ab31e2b2270000c45
+  response:
+    body:
+      string: !!binary |
+        H4sIAMjUOFsAA7RUXWvbMBT9K0GwviwfthPnwxDKNtjah7I+hO1hFHNt3cRaZMmV5GYh+L/vymlD
+        OpYthdYYZF0fnXOvdK52zGkHMs11rRxLVC1ll6VSqLVlyY5ZlEs/FgZpZIVzlU0GA6hEH4yz275C
+        52cDmgnr7CWNG23WqeDzOBzzZTaDbBhilEXRJKAnH8Ws6TKFv9xr817ktbHazDdCSgFlrxR5ASh7
+        BRhic++GH0ZLnE7HEQcIo2VGq0J6J9mMNZRSimWGnCP3eT3KsuTHjgmKsJNLu8zKekWIE7IEyA2C
+        Q54ClcyiIIx6wbgXxYswToazJIrfB0ESBASsK/4MOO0Fk14QLoJxEo+S0fQAVFAiQb7vJTs3e8nO
+        1UGS9sFBJjH9L3KFiqMhSAkSaZ4JvTJQFdsnM2TCuIIDzVk4HU0JwqmcQ2QWUaTQJTq9URT5JLWC
+        tZBu2+1cG5SgOAGkzsEJ7QG3hZDAUVaFgG7nFpWyW/kASkBbmEeBFM6zXxthC4qKElaYPqCx9NMf
+        Clvq2qSuEIZbzw5m5XO39zUY/0GOluzu2MiuqMtMgZB/cR0fRrwMTFXkccjX/Vzqmi+NVq51YZnK
+        8ZdooT7eT9zNbPHt61WVft4MjjLo/6xW3tRtmq/Fv3tWdNNqUGFYVtJ7hCXO1EiiL+3Qwekm6LIK
+        DdmA9uwPRiLcbDbHhC3Z4JTnieqxYe25ubXgyz2v7/J/pllnkpzhO+WNVC4OEnO/z17UipKMa9LD
+        1fCC2+tprdPpeRU+LcjJJXTk2oDZvr3yxSOaui912wrnx/I+Lbos8Dz9FnnWcTbNXdP8BgAA//8D
+        AIaNMpiHBgAA
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['636']
+      Content-Type: [application/json]
+      Date: ['Sun, 01 Jul 2018 13:19:04 GMT']
+      ETag: [W/"b1219b7e3e64bd492f50e9a4b590177a"]
+      Expires: ['1970-01-01 00:00:00 UTC']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [8fb18cfc-a2cc-48f1-8882-84f990d49afb]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.041309']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists/andy-warhol
+  response:
+    body:
+      string: !!binary |
+        H4sIAMjUOFsAAxTHUQqAIAwA0LvsAGkmYV4mtjIchYXbT4R3r/7ee2A+uOwC8YHjXFD5LL9zTRtE
+        yKqXRGPw4g6ryt2VpP/MNxYV49dAk6PBJxoD9uQWa+2weWitvQAAAP//AwDb49CgXQAAAA==
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['109']
+      Content-Type: [text/plain]
+      Date: ['Sun, 01 Jul 2018 13:19:04 GMT']
+      Location: ['https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [d046f748-25b7-417f-b25d-e2b23394289b]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.076026']
+    status: {code: 302, message: Found}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+      X-Xapp-Token: [eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IiIsImV4cCI6MTUzMTA1MjYzMSwiaWF0IjoxNTMwNDQ3ODMxLCJhdWQiOiI1YjIxNjAxMWNiNGMyNzQ5ZmYwMTg5ZTgiLCJpc3MiOiJHcmF2aXR5IiwianRpIjoiNWIzOGM3ZDc5YzE4ZGI1NzNkYjM0ZGEzIn0.AkdELCW1ece16AyF0K94gJG3AxSvNfGkSVmQ3qkRGvk]
+    method: GET
+    uri: https://api.artsy.net/api/artists/4d8b92b34eb68a1b2c0003f4
+  response:
+    body:
+      string: !!binary |
+        H4sIAMjUOFsAA7RW247bNhT8FUIPeakvkr3Jeg0sAhdpkV4SpO0CRdEUxpFIS4wpUuUlWnWx/94h
+        JRtO0RZboHkwQJGHZ+bMGZJ+yCTPttkV35Q3q3J9JcoXGyrKVZXn+fpwlc0yp0KNCNJ8mPdkG6Mw
+        WVlBXvA9eSyt8iKf55v5an1XXG2L59t1/kWeb/McgaHjnwRu5vn1PC/uivW2uN6urs6BmlqBkB1g
+        2M8nGGesp1KJ/bQ6LrAYhNVaaC4spltSAt+lNLWlrhlSHrZrhZUVadaR1F7YGessBi0d49hVQXXe
+        YMQthbrxriU9Y1Kp4LyltHKQqp3CeyuRgkEFVhmlRJUC+sawUlQgx4zG78B8I1hrnGcHak1wjKyX
+        zrvT0ir3DauE9sEOi6lOZKjBspGOVWRFRME+5kJVCecOQQGxRS2VJDXlSzwuqLIDfi3V9IfUwqVV
+        LXrXUSesY2XwrBxYcfMiZz1yc4FSWkRy5g0TLkosXZMYRKFH/Em1BXst2O9BVkc1nGq1Qps+bo+w
+        KU7qmomPwg6cBkYcI9AULQpF6ZZJcAOvgzVtLEZWDMRl56AJeaaMOSIZKpfAcLKVimykFhUzVtZS
+        k3KT9tpTYq6xbIlLLw1WUbw9JpWh5KjRWV6qkuDRhsiIGiMeRtag7QkjuNQ7J9XRwdlCj2DQ7Fyc
+        1KnvVBoIDkjWS3SSmBfUJljngEmxXoSiez5waRiSVwS7cPY+u8PH1xSNMyzeZ+wbnbAVeAH53kvh
+        ZifKsEesMZIl78E+IkIQmDEpfY++yqguKo8mHfm2QXnMckmxF6AyG30yAhU31zlmkCUd3pgn+kqC
+        uIlgHc6aJendgr0KNi6Puza5O9GK6ksdJt/co8lRbqkPKghdxTOQ9kB/1hur+OxSMyRMmg0mYHg6
+        F3B5E/32rSA9fyOrRij2JTkYjkaXn8lCUxQtUpNPbXHxCGITE7qGw/iI8KPQhLIoUmrJwcRgc3SL
+        dEVY38CjuCGKm9UGMxzpzzOba8w0phUe/sbMO+m9K4Otmxl7J7R2g/pIWhKilKmSERD1VvTsFyDM
+        2GmU7rPRmdKn62i6i7CQzsIeJyTq7rLtr9nBBLuHMy13MTHZOt5m0AC3AQZossp+m2V7JfURGx4y
+        34S2RI0qfjRWHIDQeN+57XLJ1yve5rZrqucFPy4qZQLHudN+oYVffjU/zsP35ofdqzeb3Qfi7qfv
+        Xtvd8oLB4kNXZ48Tzf8r/8MnRT8mDBQm2i7aHw+Qt0EA1Al1+BtM6uQChnFDwsDXcrLP8h/fLSTD
+        GcHDAM3+khEJ+76/TJiSLS9fOGzHbLLNU/mk4Jdjrr3kt/9KLaQbN76Lnwnl2RniNmobQaeLdT9p
+        9190fnna683+aRWeNsQrA23GDWCHz4/8bIrGodv7oRO3l/CRFv4yiKfhp8gntfPx8U8AAAD//wMA
+        91lHF0UJAAA=
+    headers:
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['1091']
+      Content-Type: [application/json]
+      Date: ['Sun, 01 Jul 2018 13:19:04 GMT']
+      ETag: [W/"35cf1abbf437144443bd4ef40ebd003f"]
+      Expires: ['1970-01-01 00:00:00 UTC']
+      Server: [nginx/1.12.1]
+      Strict-Transport-Security: [max-age=15552000]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [DENY]
+      X-Request-Id: [aa430c72-18b8-4992-aa8d-2e5457b5f88e]
+      X-Robots-Tag: [noindex]
+      X-Runtime: ['0.052795']
+    status: {code: 200, message: OK}
+version: 1
